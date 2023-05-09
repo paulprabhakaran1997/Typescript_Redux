@@ -12,6 +12,7 @@ import PrivateRouting from './common/Routing/PrivateRouting';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Layout from './components/Layout';
+import Users from './components/Users/Users';
 
 function App() {
 
@@ -55,6 +56,11 @@ function App() {
             <Route path='appliances' element={
               <PrivateRouting>
                 <Appliances />
+              </PrivateRouting>
+            } />
+            <Route path='users' element={
+              <PrivateRouting>
+                <Users />
               </PrivateRouting>
             } />
           </Route>
