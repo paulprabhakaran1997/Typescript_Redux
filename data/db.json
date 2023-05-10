@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "AC",
+      "price": "125000"
+    },
+    {
+      "id": 2,
+      "name": "Washing Machine",
+      "price": "22000"
+    }
+  ],
+  "users": [
+    {
+      "name": "Paul",
+      "age": "25",
+      "address": "Ngl",
+      "id": 1
+    },
+    {
+      "name": "Antony F",
+      "age": "24",
+      "address": "Eruvadi",
+      "id": 2
+    },
+    {
+      "name": "Vinish",
+      "age": "24",
+      "address": "Vlr",
+      "id": 3
+    }
+  ]
+}
